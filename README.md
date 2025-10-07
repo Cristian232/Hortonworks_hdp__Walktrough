@@ -40,3 +40,20 @@ This guide supports the Distributed Data Engineering course curriculum for Maste
 - **Apache Knox** - REST API gateway
 
 ---
+
+
+## Installation Steps
+
+### Prerequisites
+- VirtualBox 6.0 or higher installed on your system. I have 7.2.2 currently.
+- Minimum 16 GB RAM available (8 GB allocated to VM)
+- 100 GB free disk space (90 GB for unpacked VM + overhead)
+
+### Step 1: Download the HDP Sandbox
+1. Navigate to the Cloudera archive:  https://archive.cloudera.com/hwx-sandbox/hdp/hdp-3.0.1/HDP_3.0.1_virtualbox_181205.ova
+2. Download the file: `HDP_3.0.1_virtualbox_181205.ova` (20 GB)
+3. Verify the download completed successfully
+
+<img width="2624" height="1616" alt="image" src="https://github.com/user-attachments/assets/84851ae6-5132-4009-b855-eb7239584e28" />
+
+
