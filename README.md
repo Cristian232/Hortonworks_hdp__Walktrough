@@ -56,4 +56,21 @@ This guide supports the Distributed Data Engineering course curriculum for Maste
 
 <img width="2624" height="1616" alt="image" src="https://github.com/user-attachments/assets/84851ae6-5132-4009-b855-eb7239584e28" />
 
+---
+
+### Step 2: Import OVA into VirtualBox
+1. Open VirtualBox application
+2. Click **File** > **Import Appliance**
+3. Select the downloaded `HDP_3.0.1_virtualbox_181205.ova` file
+
+<img width="1972" height="1737" alt="image" src="https://github.com/user-attachments/assets/1b2d00d4-cd9d-4259-9b43-76c78b0ba4db" />
+
+4. Review default settings (8 GB RAM, 2 CPUs recommended)
+5. Set the Machine Base Folder to a folder that has 100 GB free 
+
+<img width="1602" height="1182" alt="image" src="https://github.com/user-attachments/assets/58d48d41-f346-4b78-ab6c-526c3e251dc8" />
+
+6. Click **Import** and wait for the process to complete (approximately 10-15 minutes)
+
+<img width="397" height="247" alt="image" src="https://github.com/user-attachments/assets/ebcc5635-8510-41e8-9b25-404755d98e76" />
 
