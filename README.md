@@ -146,5 +146,22 @@ Will be required to change pass
 <img width="2755" height="105" alt="image" src="https://github.com/user-attachments/assets/55dd85bf-b25e-4e67-a736-782b9638843c" />
 
 
+Common commands
 
+# Check HDFS status (run as hdfs user)
+sudo -u hdfs hdfs dfsadmin -report
 
+<img width="2756" height="1796" alt="image" src="https://github.com/user-attachments/assets/63e05fec-80e8-43fa-92f0-48c3cf77af9c" />
+
+# List HDFS root directory
+sudo -u hdfs hdfs dfs -ls /
+
+<img width="2757" height="728" alt="image" src="https://github.com/user-attachments/assets/a02866ba-c2fd-4862-9a17-f4e2adb6454c" />
+
+````
+# Create directory in HDFS
+sudo -u hdfs hdfs dfs -mkdir /user/yourname
+
+# Upload file to HDFS
+sudo -u hdfs hdfs dfs -put localfile.txt /user/yourname/
+````
