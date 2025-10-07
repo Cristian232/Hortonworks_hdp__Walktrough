@@ -83,7 +83,7 @@ This guide supports the Distributed Data Engineering course curriculum for Maste
 
 
 
-### Step 4: Start the Virtual Machine
+### Step 3: Start the Virtual Machine
 1. Select the HDP Sandbox VM
 2. Click **Start**
 3. Wait for the VM to boot (first boot takes 5-10 minutes)
@@ -96,3 +96,55 @@ This guide supports the Distributed Data Engineering course curriculum for Maste
 <img width="975" height="701" alt="image" src="https://github.com/user-attachments/assets/3aaddc2d-d4ba-4fe9-8976-5f659ea9e6c3" />
 
 ---
+
+### Step 4: Access HortonWorks Sandbox Web Interface
+1. Open web browser on host machine
+2. Navigate to: `http://localhost:1080`
+
+
+<img width="2552" height="1808" alt="image" src="https://github.com/user-attachments/assets/c0794a0f-4b7d-4819-b30c-65c04dc172ac" />
+
+
+3. Recommended -> Access Quick links (right side)
+
+<img width="2541" height="1687" alt="image" src="https://github.com/user-attachments/assets/598fe54a-b811-4274-9303-bbb928329ee5" />
+
+
+---
+
+
+### Step 5: Access Ambari Web Interface
+1. Open web browser on host machine
+2. Navigate to: `http://localhost:8080` or from `http://localhost:1080` Advanced HDP Quick Links -> Ambari `Go to UI`
+
+<img width="2145" height="1028" alt="image" src="https://github.com/user-attachments/assets/64d1ced9-f948-4910-8876-5c4449862f12" />
+
+3. Login with Ambari credentials:
+   - Username: `raj_ops`
+   - Password: `raj_ops`
+
+4. Verify all services are running (green status indicators)
+
+<img width="2522" height="2061" alt="image" src="https://github.com/user-attachments/assets/3273b62c-6bb8-4f10-bdbe-eb34e47613a5" />
+
+Likely a legacy UI, need to scroll down for the next screen
+
+<img width="2543" height="1781" alt="image" src="https://github.com/user-attachments/assets/6dcaf68a-82bf-4f7e-916b-708233c877fb" />
+
+---
+
+### Step 6: Access ssh 
+**SSH Connection Test:**
+```powershell
+ssh root@localhost -p 2222
+# Password: hadoop (or your changed password)
+````
+Will be required to change pass
+
+<img width="2758" height="594" alt="image" src="https://github.com/user-attachments/assets/15131570-9c6d-46c1-bfa1-5f1c41c48460" />
+
+<img width="2755" height="105" alt="image" src="https://github.com/user-attachments/assets/55dd85bf-b25e-4e67-a736-782b9638843c" />
+
+
+
+
