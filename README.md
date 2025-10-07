@@ -81,3 +81,18 @@ This guide supports the Distributed Data Engineering course curriculum for Maste
 
 ---
 
+
+
+### Step 4: Start the Virtual Machine
+1. Select the HDP Sandbox VM
+2. Click **Start**
+3. Wait for the VM to boot (first boot takes 5-10 minutes)
+
+<img width="2545" height="1661" alt="image" src="https://github.com/user-attachments/assets/86671625-31cf-42fa-b238-32688a960e00" />
+
+
+4. After succesfull start will appear the following:
+
+<img width="975" height="701" alt="image" src="https://github.com/user-attachments/assets/3aaddc2d-d4ba-4fe9-8976-5f659ea9e6c3" />
+
+---
