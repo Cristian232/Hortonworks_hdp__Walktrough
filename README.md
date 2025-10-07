@@ -74,3 +74,10 @@ This guide supports the Distributed Data Engineering course curriculum for Maste
 
 <img width="397" height="247" alt="image" src="https://github.com/user-attachments/assets/ebcc5635-8510-41e8-9b25-404755d98e76" />
 
+7. Finish
+
+<img width="2549" height="1593" alt="image" src="https://github.com/user-attachments/assets/3f3e405a-4bc5-4fdb-adf6-19fd69d6fbe8" />
+
+
+---
+
